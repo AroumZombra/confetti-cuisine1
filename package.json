@@ -1,11 +1,18 @@
-{
-  "name": "Back End Project",
-  "version": "1.0.0",
-  "description": "An express app with routes",
-  "main": "main.js",
+
+  {
+  "name": "product app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://aroumzombra.github.io/RestAPI/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+
   },
   "author": "Jon Wexler",
   "license": "ISC",
